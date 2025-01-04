@@ -1,8 +1,5 @@
 # software reuse
 
-Created: November 4, 2024 2:16 PM
-Tags: LEC
-
 # software reuse
 
 - there has been a major switch to a **design process** that is based on **systematic software reuse** over the past 20 years
@@ -124,22 +121,12 @@ Tags: LEC
 
 ### characteristics
 
-| composable | for a component to be composable, **all external interactions must take place through publicly defined interfaces**
-
-in addition, **it must provide external access to information about itself**, such as its methods and attributes |
-| --- | --- |
-| deployable | to be deployable, **a component has to be self-contained**
-
-it must be able to **operate as a stand-alone entity** on a component platform that **implements the component model**— this usually means that the **component is binary and does not need to be compiled before deployment** |
-| documented | components have to be **fully documented** so that **potential users can decide whether or not the components meet their needs**
-
-the syntax and, ideally, the **semantics of all component interfaces should be specified** |
-| independent | a component should be **independent**—it should be possible to **compose and deploy it without having to use other specific components**
-
-in situations where the component needs externally provided services, **these should be explicitly set out in a “requires” interface specification** |
-| standardized | component standardization means that **a component used in a CBSE process has to conform to a standard component model**
-
-this model may define **component interfaces, component metadata, documentation, composition, and deployment** |
+| composable   | for a component to be composable, **all external interactions must take place through publicly defined interfaces in addition, it must provide external access to information about itself, such as its methods and attributes. |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| deployable   | to be deployable, **a component has to be self-contained**. It must be able to **operate as a stand-alone entity** on a component platform that **implements the component model**— this usually means that the **component is binary and does not need to be compiled before deployment**. |
+| documented   | components have to be **fully documented** so that **potential users can decide whether or not the components meet their needs**. The syntax and, ideally, the **semantics of all component interfaces should be specified**. |
+| independent  | a component should be **independent**—it should be possible to **compose and deploy it without having to use other specific components**. In situations where the component needs externally provided services, **these should be explicitly set out in a “requires” interface specification**. |
+| standardized | component standardization means that **a component used in a CBSE process has to conform to a standard component model**. This model may define **component interfaces, component metadata, documentation, composition, and deployment**. |
 
 ## components as providers of services
 
@@ -162,10 +149,7 @@ this model may define **component interfaces, component metadata, documentation,
 
 ## component model implementation
 
-- a component model implementation provides **platform services and support services**
-    
-    ![Screenshot 2024-11-04 at 2.30.36 PM.png](software%20reuse%20134b756f812280c6a5dfc68192033d69/Screenshot_2024-11-04_at_2.30.36_PM.png)
-    
+- a component model implementation provides **platform services and support services**    
 - components can be considered as being **deployed in containers**
     - a **container** is an **implementation of these services plus a definition of the interfaces** a component must provide to integrate it with the container
 
@@ -174,8 +158,6 @@ this model may define **component interfaces, component metadata, documentation,
 - CBSE processes are **software processes that support component-based software engineering**
     - **development for reuse**: process concerned with **developing components or services that will be reused** in other applications
     - **development with reuse**: process of **developing new applications using existing components** and services
-
-![Screenshot 2024-11-04 at 2.31.52 PM.png](software%20reuse%20134b756f812280c6a5dfc68192033d69/Screenshot_2024-11-04_at_2.31.52_PM.png)
 
 ### supporting processes
 
@@ -218,5 +200,3 @@ this model may define **component interfaces, component metadata, documentation,
     - **service candidate identification**, where you **identify possible services that might be implemented** and **define the service requirements**
     - **service design**, where you **design the logical service interface** and its **implementation interfaces**
     - **service implementation and deployment**, where you **implement and test the service** and make it available for use
-
-![Screenshot 2024-11-04 at 2.35.35 PM.png](software%20reuse%20134b756f812280c6a5dfc68192033d69/Screenshot_2024-11-04_at_2.35.35_PM.png)
