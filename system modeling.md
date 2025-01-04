@@ -1,8 +1,5 @@
 # system modeling
 
-Created: September 26, 2024 7:00 PM
-Tags: LEC
-
 # system modeling
 
 - system modeling is the process of **developing abstract models of a system**
@@ -32,8 +29,6 @@ Tags: LEC
     - today’s de-facto standard in the industry
 
 ### UML diagram types
-
-![Screenshot 2024-09-26 at 7.04.46 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.04.46_PM.png)
 
 # context models
 
@@ -78,14 +73,6 @@ components (and external agents)**
     activations
     frames |
 
-### frame for looping
-
-![Screenshot 2024-09-26 at 7.24.16 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.24.16_PM.png)
-
-### frame for conditioning
-
-![Screenshot 2024-09-26 at 7.24.49 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.24.49_PM.png)
-
 # structural models
 
 - display the **organization of a system** in terms of the **components that make up that system and their relationships**
@@ -97,9 +84,6 @@ components (and external agents)**
 ## classes
 
 - a class encapsulates state (attributes) and behavior (operations)
-
-![Screenshot 2024-09-26 at 7.26.52 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.26.52_PM.png)
-
 - each attribute has a type
 
 - each operation has a signature
@@ -131,13 +115,9 @@ components (and external agents)**
     - class A creates instances of B
     - class A received a message with argument of type B
 
-![Screenshot 2024-09-26 at 7.32.34 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.32.34_PM.png)
-
 ### association multiplicity
 
 - **multiplicity** denotes **how many objects of the class take part** in the relation
-
-![Screenshot 2024-09-26 at 7.33.13 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.33.13_PM.png)
 
 ## special associations (has-a relation)
 
@@ -146,20 +126,14 @@ components (and external agents)**
     - component can be created and **destroyed independently
     of the aggregate**
 
-![Screenshot 2024-09-26 at 7.33.59 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.33.59_PM.png)
-
 - **composition**: strong aggregation
     - **a component can only be part of a single aggregate**
     - **exists only together with the aggregate**
-
-![Screenshot 2024-09-26 at 7.34.37 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.34.37_PM.png)
 
 ### navigability of association
 
 - association can be **directed**
     - direction denotes **whether objects can be accessed through this association**
-
-![Screenshot 2024-09-26 at 7.35.41 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.35.41_PM.png)
 
 ## generalization and specialization
 
@@ -167,12 +141,6 @@ components (and external agents)**
 - generalization is **implemented by inheritance**
     - the child classes **inherit the attributes and operations of the parent class**
 - generalization simplifies the model by **eliminating redundancy**
-
-![Screenshot 2024-09-26 at 7.36.28 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.36.28_PM.png)
-
-### example
-
-![Screenshot 2024-09-26 at 7.36.51 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.36.51_PM.png)
 
 # behavioral models
 
@@ -190,14 +158,6 @@ the case**
 - data-driven models show the **sequence of actions involved in processing input data** and **generating an associated output**
     - many business systems are data-processing systems that are primarily driven by data
 
-### activity diagrams
-
-![Screenshot 2024-09-26 at 7.38.25 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.38.25_PM.png)
-
-### sequence diagrams
-
-![Screenshot 2024-09-26 at 7.38.31 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.38.31_PM.png)
-
 ## event-driven modeling
 
 - event-driven modeling shows **how a system responds to external and internal events**
@@ -210,5 +170,3 @@ the case**
 - the number of **possible states increases rapidly**
     - modelling states at different levels
     - a **superstate** looks like a single state in a high-level model but is **then expanded to show more detail in a separate diagram**
-
-![Screenshot 2024-09-26 at 7.40.26 PM.png](system%20modeling%2010db756f81228094a560c928cde23edd/Screenshot_2024-09-26_at_7.40.26_PM.png)
