@@ -1,8 +1,5 @@
 # OOP analysis and design
 
-Created: October 16, 2024 11:19 AM
-Tags: LEC
-
 # object-oriented analysis
 
 - the goal is to **understand the problem** and to begin to **develop a model of what you are trying to build**
@@ -61,8 +58,6 @@ Tags: LEC
 - draw them in a domain model, i.e., **a set of UML class diagrams in which no operations are defined**
 - afterwards, add associations and attributes
 
-![Screenshot 2024-10-16 at 11.24.01 AM.png](OOP%20analysis%20and%20design%20121b756f8122802083cdf54f5ee69481/Screenshot_2024-10-16_at_11.24.01_AM.png)
-
 ### associations in domain modeling
 
 - **a relationship between types** (or instances of those types) that indicates some **meaningful and interesting connection**
@@ -73,18 +68,12 @@ Tags: LEC
     - **too many associations confuse a domain model** rather than illuminate it
         - **avoid showing redundant or derivable associations**
 
-![Screenshot 2024-10-16 at 11.27.37 AM.png](OOP%20analysis%20and%20design%20121b756f8122802083cdf54f5ee69481/Screenshot_2024-10-16_at_11.27.37_AM.png)
-
 ## attributes
 
 - an attribute is a **logical data value of an object**
     - avoid representing something as an attribute **when it should have been a concept**
         - the attributes in a domain model should preferably be **simple attributes or data types**
     - **attributes should not be used to relate conceptual classes** in the domain model
-
-![Screenshot 2024-10-16 at 11.28.20 AM.png](OOP%20analysis%20and%20design%20121b756f8122802083cdf54f5ee69481/Screenshot_2024-10-16_at_11.28.20_AM.png)
-
-![Screenshot 2024-10-16 at 11.28.42 AM.png](OOP%20analysis%20and%20design%20121b756f8122802083cdf54f5ee69481/Screenshot_2024-10-16_at_11.28.42_AM.png)
 
 # object-oriented design
 
@@ -127,8 +116,6 @@ Tags: LEC
 
 ### class-responsibility-collaborator
 
-![Screenshot 2024-10-16 at 11.31.53 AM.png](OOP%20analysis%20and%20design%20121b756f8122802083cdf54f5ee69481/Screenshot_2024-10-16_at_11.31.53_AM.png)
-
 - **one card per class**, **which shows its responsibilities** and with which other class(es) **it must collaborate to fulfill each responsibility**
     - then write a brief description of the class on the back of the card
 
@@ -160,7 +147,6 @@ interface Printer{ void printPage(Page p); }
 
 - **each responsibility is a reason for change**— a class should have only **one reason to change**
 
-![Screenshot 2024-10-16 at 11.34.25 AM.png](OOP%20analysis%20and%20design%20121b756f8122802083cdf54f5ee69481/Screenshot_2024-10-16_at_11.34.25_AM.png)
 
 ### open/closed principle
 
@@ -335,16 +321,11 @@ interface Door extends TimerClient{
 - clients should not be forced to **depend on methods that they do not need**
     - clients of an object can **access the object through delegation or through a base class of the object**
 
-![Screenshot 2024-10-16 at 12.01.55 PM.png](OOP%20analysis%20and%20design%20121b756f8122802083cdf54f5ee69481/Screenshot_2024-10-16_at_12.01.55_PM.png)
-
 - many client-specific interfaces are better than **one general-purpose interface**
 
 ### dependency inversion principle
 
 - in conventional application architecture, **higher-level components depend directly upon lower-level components to complete some tasks**
-
-![Screenshot 2024-10-16 at 12.02.32 PM.png](OOP%20analysis%20and%20design%20121b756f8122802083cdf54f5ee69481/Screenshot_2024-10-16_at_12.02.32_PM.png)
-
 - limited reusability of the higher-level components
 - inverted dependency
 
