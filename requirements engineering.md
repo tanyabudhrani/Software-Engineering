@@ -1,8 +1,5 @@
 # requirements engineering
 
-Created: September 15, 2024 7:46 PM
-Tags: LEC
-
 # requirements and requirements engineering
 
 - the **requirements** are the **descriptions of the services that a system should provide** and the **constraints on its operation**
@@ -14,8 +11,6 @@ Tags: LEC
 - **user requirements**: statements in **natural language plus diagrams**
 
 - **system requirements**: a detailed, **structured document**
-
-![Screenshot 2024-09-15 at 7.48.16 PM.png](requirements%20engineering%20102b756f8122802aba46d7a5d10a1926/Screenshot_2024-09-15_at_7.48.16_PM.png)
 
 ## agile methods and requirements
 
@@ -108,26 +103,12 @@ number of target systems |
 
 - involves **technical staff working with stakeholders** to find out about the **application domain, work activities, services, system features that stakeholders want, etc**
 
-![Screenshot 2024-09-15 at 8.00.16 PM.png](requirements%20engineering%20102b756f8122802aba46d7a5d10a1926/Screenshot_2024-09-15_at_8.00.16_PM.png)
-
 ## techniques
 
-|  | problems | benefits |
-| --- | --- | --- |
-| interviewing | application specialists **may use language that isn’t easy for the requirements engineer to understand** to describe their work
-
-interviews are **not good for understanding domain requirements** | be open-minded, avoid pre-conceived ideas about the requirements, and **be willing to listen to stakeholders**
-
-**prompt the interviewee to talk about the system by suggesting requirements** rather than simply asking them what they want |
-| observation | participants might get disturbed
-
-participants **might change their way of working during observation** and the observer might not get a clear picture
-
-**knowledge-based activities (e.g., debugging) are hard to observe** | **people do not have to explain or articulate their work**
-
-it is relatively inexpensive
-
-the observer will get a **practical insight into the work**— social and organizational factors of importance may be observed |
+| **method**       | **problems**                                                                                                              | **benefits**                                                                                                          |
+|-------------------|--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| **interviewing**  | - application specialists **may use language that isn’t easy for the requirements engineer to understand** to describe their work <br> - interviews are **not good for understanding domain requirements** | - **be open-minded**, avoid pre-conceived ideas about the requirements, and **be willing to listen to stakeholders** <br> - **prompt the interviewee** to talk about the system by suggesting requirements rather than simply asking them what they want |
+| **observation**   | - participants might get disturbed <br> - participants **might change their way of working during observation**, making it hard to get a clear picture <br> - **knowledge-based activities (e.g., debugging) are hard to observe** | - **people do not have to explain or articulate their work** <br> - it is relatively inexpensive <br> - the observer will gain **practical insight into the work**, including social and organizational factors that may be important |  
 
 ### problems of requirements elicitation
 
