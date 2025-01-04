@@ -1,8 +1,5 @@
 # software testing
 
-Created: October 20, 2024 6:32 PM
-Tags: LEC
-
 # program testing
 
 - testing is intended to show that **a program does what it is intended to do** and **discover program defects before it is used**
@@ -110,8 +107,6 @@ Tags: LEC
     - **test cases should be chosen from each partition**
     - partition boundary
 
-![Screenshot 2024-10-20 at 6.43.59 PM.png](software%20testing%20125b756f812280518c71d181d6557f16/Screenshot_2024-10-20_at_6.43.59_PM.png)
-
 ## testing guidelines
 
 - **software with sequences**
@@ -214,21 +209,12 @@ scenario testing uses typical scenarios to develop test cases for the system
 - user testing is essential, even when comprehensive system and release testing have been carried out
     - the reason for this is that influences from the user’s working environment have a major effect on a system's reliability, performance, usability, and robustness— **these cannot be replicated in a development environment**
 
-| alpha testing | users of the software **work with the development team to test the software at the developer’s site**
-
-used when **developing software products** or custom software |
-| --- | --- |
-| beta testing | a release of the software is **made available to users to allow them to experiment** with the software
-
-mostly used for **software products** used in many different settings |
-| acceptance testing | **customers test a system to decide whether or not it is ready to be accepted** from the system developers and deployed in the customer environment
-
-an inherent part of custom systems development |
+| alpha testing    | users of the software **work with the development team to test the software at the developer’s site**. Used when **developing software products** or custom software. |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| beta testing     | a release of the software is **made available to users to allow them to experiment** with the software. Mostly used for **software products** used in many different settings. |
+| acceptance testing | **customers test a system to decide whether or not it is ready to be accepted** from the system developers and deployed in the customer environment. An inherent part of custom systems development. |
 
 ### stages in acceptance testing
-
-![Screenshot 2024-10-20 at 6.59.44 PM.png](software%20testing%20125b756f812280518c71d181d6557f16/Screenshot_2024-10-20_at_6.59.44_PM.png)
-
 > in **agile methods**, the **user/customer is part of the development team** and is responsible for making decisions on the acceptability of the system
 
 there is **no separate acceptance testing process**
