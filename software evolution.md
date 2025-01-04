@@ -1,8 +1,5 @@
 # software evolution
 
-Created: October 28, 2024 1:09 PM
-Tags: LEC
-
 ## software change
 
 - errors must be repaired;
@@ -42,8 +39,6 @@ Tags: LEC
 
 ## a general model
 
-![Screenshot 2024-10-28 at 1.13.06 PM.png](software%20evolution%2012db756f81228055ac77ee8a36f0a488/Screenshot_2024-10-28_at_1.13.06_PM.png)
-
 - change implementation
     - **iteration of the development process** where the **revisions to the system are designed, implemented, and tested**
     - **critical difference between development and evolution** is that the **first stage of change implementation may involve program understanding**
@@ -51,10 +46,7 @@ Tags: LEC
 ## change management process
 
 - the process of **analyzing the costs and benefits of proposed changes**, approving those changes that are **cost-effective**, and tracking **which components in the system have been changed**
-    
-    ![Screenshot 2024-10-28 at 1.37.39 PM.png](software%20evolution%2012db756f81228055ac77ee8a36f0a488/Screenshot_2024-10-28_at_1.37.39_PM.png)
-    
-
+  
 ## agile methods and evolution
 
 - agile methods are based on incremental development so **the transition from development to evolution is a seamless one**
@@ -93,8 +85,6 @@ Tags: LEC
 - restructuring or rewriting part or all of a legacy system **without changing its functionality**—to make them easier to maintain
     - applicable where some but not all sub-systems of a **larger system require frequent maintenance**
 
-![Screenshot 2024-10-28 at 1.42.59 PM.png](software%20evolution%2012db756f81228055ac77ee8a36f0a488/Screenshot_2024-10-28_at_1.42.59_PM.png)
-
 - advantages of reengineering over replacement
     - **reduced risk**
     - **reduced cost**
@@ -131,14 +121,7 @@ Tags: LEC
 - **manages codelines and baselines**
 
 - a **codeline** is a **sequence of versions of source code** with **later versions in the sequence derived from earlier versions**
-    
-    ![Screenshot 2024-10-28 at 1.50.22 PM.png](software%20evolution%2012db756f81228055ac77ee8a36f0a488/Screenshot_2024-10-28_at_1.50.22_PM.png)
-    
-
-- a **baseline** specifies the **component versions included in a specific system and the libraries and configuration files**, etc., used
-    
-    ![Screenshot 2024-10-28 at 1.50.28 PM.png](software%20evolution%2012db756f81228055ac77ee8a36f0a488/Screenshot_2024-10-28_at_1.50.28_PM.png)
-    
+- a **baseline** specifies the **component versions included in a specific system and the libraries and configuration files**, etc., used  
 - the **mainline** is a **sequence of system versions developed from an original baseline**
 
 ## version control systems
@@ -166,17 +149,12 @@ Tags: LEC
 - when modifying components, **developers copy (check-out) these from the repository into their workspace** and work on these copies
 - when they have finished their changes, **the changed components are returned (checked-in) to the repository**
 
-- in centralized version control, **a private workspace contains only components from the project repository**
-    
-    ![Screenshot 2024-10-28 at 1.54.12 PM.png](software%20evolution%2012db756f81228055ac77ee8a36f0a488/Screenshot_2024-10-28_at_1.54.12_PM.png)
-    
+- in centralized version control, **a private workspace contains only components from the project repository**  
     - it is **easier to learn** and set up
     - it **takes less time and space** to download part of a project
 
 - in distributed version control, **a private workspace is a clone of the project repository**
-    
-    ![Screenshot 2024-10-28 at 1.54.17 PM.png](software%20evolution%2012db756f81228055ac77ee8a36f0a488/Screenshot_2024-10-28_at_1.54.17_PM.png)
-    
+        
     - it provides a **backup mechanism** for the repository
     - it allows for **offline working**
     - it is **faster**
@@ -205,10 +183,7 @@ Tags: LEC
 # legacy systems
 
 - **older systems** that rely on languages and technology that are no longer used for new systems development
-    - they are not just software systems but are **broader socio-technical systems that include hardware, software, libraries and other supporting software and business processes**
-    
-    ![Screenshot 2024-10-28 at 1.59.19 PM.png](software%20evolution%2012db756f81228055ac77ee8a36f0a488/Screenshot_2024-10-28_at_1.59.19_PM.png)
-    
+    - they are not just software systems but are **broader socio-technical systems that include hardware, software, libraries and other supporting software and business processes** 
 
 ## replacement and change
 
@@ -252,5 +227,4 @@ Tags: LEC
 | --- | --- |
 | low-quality, high-business value | **re-engineer or replace** if a suitable system is available |
 | high-quality, low-business value | **scrap completely or maintain** |
-| high-quality, high business value | **keep in operation with
-normal system maintenance** |
+| high-quality, high business value | **keep in operation with normal system maintenance** |
