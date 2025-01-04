@@ -1,8 +1,5 @@
 # agile development
 
-Created: September 11, 2024 12:32 PM
-Tags: LEC
-
 # agile development
 
 - **dissatisfaction with the overheads** involved in plan-driven software design methods of the 1980s and 1990s led to the creation of agile methods
@@ -15,14 +12,10 @@ Tags: LEC
 - based around **separate development stages** with the outputs to be produced at each stage
 - **iteration occurs within activities**
 
-![Screenshot 2024-09-11 at 12.34.19 PM.png](agile%20development%206b039839c3464007b91f5f4e9ddc1793/Screenshot_2024-09-11_at_12.34.19_PM.png)
-
 ## agile development
 
 - specification, design, implementation, and testing are inter-leaved and **the outputs from the development process are negotiated during the software development process**
 - **iteration occurs across activities**
-
-![Screenshot 2024-09-11 at 12.34.26 PM.png](agile%20development%206b039839c3464007b91f5f4e9ddc1793/Screenshot_2024-09-11_at_12.34.26_PM.png)
 
 ## agile manifesto
 
@@ -52,27 +45,19 @@ Tags: LEC
     - all tests must be run for every build and the **build is only accepted if tests run successfully**
 - the extreme programming release cycle
 
-![Screenshot 2024-09-11 at 12.39.44 PM.png](agile%20development%206b039839c3464007b91f5f4e9ddc1793/Screenshot_2024-09-11_at_12.39.44_PM.png)
 
-| incremental planning | requirements are recorded on story cards and the stories to be included in a release are **determined by the time available and their relative priority**
-
-the developers break these stories into **development ‘tasks’** |
-| --- | --- |
-| small releases | the **minimal useful set of functionality** that provides business value is developed first
-
-releases of the system are frequent and **incrementally add functionality to the first release** |
-| simple design  | **enough design** is carried out to meet the current requirements |
-| test-first development | an automated unit test framework is used to write **tests for a new piece of functionality before that functionality itself is implemented** |
-| refactoring | all developers are expected to **refactor the code continuously** as soon as possible code improvements are found |
-| pair programming | **developers work in pairs**, checking each other’s work and providing the support to always do a good job |
-| collective ownership | **the pairs of developers work on all areas of the system**, so that no islands of expertise develop and all the developers take responsibility for all of the code |
-| continuous integration | as soon as the work on a task is complete, **it is integrated into the whole system**
-
-after any such integration, all the unit tests in the system must pass |
-| sustainable pace | **large amounts of overtime are not considered acceptable** as the net effect is often to reduce code quality and medium term productivity |
-| on-site customer | **a representative of the end-user of the system (the customer) should be available full time for the use of the XP team**
-
-in an extreme programming process, the customer is a member of the development team and is responsible for bringing system requirements to the team for implementation |
+| **practice**            | **description**                                                                                           |
+|--------------------------|-----------------------------------------------------------------------------------------------------------|
+| **incremental planning** | requirements are recorded on story cards, and the stories to be included in a release are **determined by the time available and their relative priority**. developers break these stories into **development tasks**. |
+| **small releases**       | the **minimal useful set of functionality** that provides business value is developed first. releases of the system are frequent and **incrementally add functionality to the first release**. |
+| **simple design**        | **enough design** is carried out to meet the current requirements.                                         |
+| **test-first development** | an automated unit test framework is used to write **tests for a new piece of functionality before that functionality itself is implemented**. |
+| **refactoring**          | all developers are expected to **refactor the code continuously** as soon as possible code improvements are found. |
+| **pair programming**     | **developers work in pairs**, checking each other’s work and providing support to always do a good job.   |
+| **collective ownership** | **pairs of developers work on all areas of the system**, ensuring no islands of expertise develop and that all developers take responsibility for the entire codebase. |
+| **continuous integration** | as soon as the work on a task is complete, **it is integrated into the whole system**. after any such integration, all the unit tests in the system must pass. |
+| **sustainable pace**     | **large amounts of overtime are not considered acceptable**, as the net effect is often reduced code quality and medium-term productivity. |
+| **on-site customer**     | **a representative of the end-user of the system (the customer)** should be available full-time for the use of the XP team. in an extreme programming process, the customer is a member of the development team and is responsible for bringing system requirements to the team for implementation. |  
 
 ## support for agile principles in XP
 
@@ -143,10 +128,8 @@ in an extreme programming process, the customer is a member of the development t
 
 - the customer helps **develop acceptance tests for the stories** to be implemented in the next release of the system
 - **limitations:**
-
-- people adopting the customer role have **limited time and cannot work full-time** with the development team
-
-- they may feel that **providing the requirements was enough of a contribution** and may be reluctant to get involved in the testing process
+    - people adopting the customer role have **limited time and cannot work full-time** with the development team
+    - they may feel that **providing the requirements was enough of a contribution** and may be reluctant to get involved in the testing process
 
 ## test automation
 
@@ -191,8 +174,6 @@ in an extreme programming process, the customer is a member of the development t
     1. the initial phase is an **outline planning phase where you establish the general objectives** for the project and **design the software architecture**
     2. that is followed by a **series of sprint cycles**, where each cycle develops an increment of the system
     3. the **project closure phase** wraps up the project, completes required documentation, and assesses the lessons learned
-
-![Screenshot 2024-09-11 at 1.46.34 PM.png](agile%20development%206b039839c3464007b91f5f4e9ddc1793/Screenshot_2024-09-11_at_1.46.34_PM.png)
 
 ### scrum sprint cycle
 
