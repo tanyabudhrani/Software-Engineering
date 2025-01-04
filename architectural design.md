@@ -1,8 +1,5 @@
 # architectural design
 
-Created: October 2, 2024 1:01 PM
-Tags: LEC
-
 # architectural design
 
 - concerned with the understanding **how a software system should be organized** and **designing the overall structure of the system**
@@ -73,8 +70,6 @@ product-line architectures may be developed |
     - the **view component** defines and manages **how the data is presented to the user**
     - the **controller component** manages **user interaction** and passes these interactions to the view and the model
 
-![Screenshot 2024-10-02 at 1.37.23 PM.png](architectural%20design%20113b756f81228008adb7ed2b7d34a04b/Screenshot_2024-10-02_at_1.37.23_PM.png)
-
 - **advantage**: allows the data to **change independently of its representation**
 
 - **disadvantage**: can involve **code complexity**
@@ -86,8 +81,6 @@ product-line architectures may be developed |
     - when a layer interface changes, **only the adjacent layer is affected**
     - however, it is often artificial to structure systems in this way
     - a generic layered architecture
-
-![Screenshot 2024-10-02 at 1.39.00 PM.png](architectural%20design%20113b756f81228008adb7ed2b7d34a04b/Screenshot_2024-10-02_at_1.39.00_PM.png)
 
 - **organizes the system into layers** with **related functionality associated with each layer**— a layer provides services to the layer above it so the **lowest-level layers represent core services** that are likely to be used throughout the system
 
@@ -104,8 +97,6 @@ product-line architectures may be developed |
 - **distributed storage**: each sub-system **maintains its own database** and **passes data explicitly** to other subsystems
 - **organizing tools around a repository** is an efficient way of **sharing large amounts of data**
     - **a repository architecture for an IDE with tools to support model driven development**
-
-![Screenshot 2024-10-02 at 1.42.10 PM.png](architectural%20design%20113b756f81228008adb7ed2b7d34a04b/Screenshot_2024-10-02_at_1.42.10_PM.png)
 
 - all data in a system is managed in a **central repository that is accessible to all system components**
     - **components do not interact directly, only through the repository**
@@ -130,8 +121,6 @@ product-line architectures may be developed |
     - **network** which allows **clients to access servers**
     - can be **implemented on a single computer**
 
-![Screenshot 2024-10-02 at 1.46.45 PM.png](architectural%20design%20113b756f81228008adb7ed2b7d34a04b/Screenshot_2024-10-02_at_1.46.45_PM.png)
-
 - the functionality of the system is **organized into services**, with **each service delivered from a separate server** — clients are **users of these services and access servers** to make use of them
 
 - **advantages**: servers can be **distributed across a network**
@@ -143,8 +132,6 @@ product-line architectures may be developed |
 - a model of the **runtime organization of a system** where functional transformations **process inputs and produce outputs**
     - **pipe** is used because a **transformation filters out the data it can process from its input data stream**
     - best suited to batch processing systems and embedded systems with **limited user interactions**
-
-![Screenshot 2024-10-02 at 1.50.02 PM.png](architectural%20design%20113b756f81228008adb7ed2b7d34a04b/Screenshot_2024-10-02_at_1.50.02_PM.png)
 
 - the processing of the data in a system is organized so that **each processing component is discrete and carries out one type of data transformation**
 
@@ -162,21 +149,15 @@ product-line architectures may be developed |
 - database-centered applications that process user requests for information and update the information in a system database
 - from a user perspective, a transaction is any coherent sequence of operations that satisfies a goal
 
-![Screenshot 2024-10-02 at 1.54.07 PM.png](architectural%20design%20113b756f81228008adb7ed2b7d34a04b/Screenshot_2024-10-02_at_1.54.07_PM.png)
-
 ## language processing systems
 
 - applications where the users’ intentions are specified in a formal language that is processed and interpreted by the system
 - translate one language into an alternative representation of that language
 
-![Screenshot 2024-10-02 at 1.56.15 PM.png](architectural%20design%20113b756f81228008adb7ed2b7d34a04b/Screenshot_2024-10-02_at_1.56.15_PM.png)
-
 ## information systems
 
 - all systems involving interactions with a shared database can be considered transaction-based information systems— an information system allows controlled access to a large base of information
     - information systems have a generic architecture that can be organized as a layered architecture
-
-![Screenshot 2024-10-02 at 1.55.40 PM.png](architectural%20design%20113b756f81228008adb7ed2b7d34a04b/Screenshot_2024-10-02_at_1.55.40_PM.png)
 
 ### other architectures of LPSs
 
