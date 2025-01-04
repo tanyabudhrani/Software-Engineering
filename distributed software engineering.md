@@ -1,8 +1,5 @@
 # distributed software engineering
 
-Created: November 9, 2024 9:49 PM
-Tags: LEC
-
 # distributed systems
 
 - virtually all large computer-based systems are **now distributed systems**, where a collection of **independent computers appears to the user as a single coherent system**
@@ -89,8 +86,6 @@ Tags: LEC
     - **procedural interaction**, where **one computer calls on a known service offered by another computer** and waits for a response
     - **message-based interaction**, which involves the **sending computer sending information to another computer**— there is **no necessity to wait for a response**
 
-![Screenshot 2024-11-09 at 9.59.27 PM.png](distributed%20software%20engineering%20139b756f812280cd9927d5a4c7d7310d/Screenshot_2024-11-09_at_9.59.27_PM.png)
-
 ## remote procedure calls
 
 - procedural communication in a distributed system is **implemented using remote procedure calls** (RPC)
@@ -111,15 +106,11 @@ Tags: LEC
 - middleware is software that **can manage the diverse parts in a distributed system and ensure they can communicate and exchange data**
     - the components in a distributed system may be **implemented in different programming languages, execute on different types of processors, and be based on different data models, information representations, and communication protocols**
 
-![Screenshot 2024-11-09 at 10.01.51 PM.png](distributed%20software%20engineering%20139b756f812280cd9927d5a4c7d7310d/Screenshot_2024-11-09_at_10.01.51_PM.png)
-
 # client-server computing
 
 - distributed systems accessed over the internet are **normally organized as client-server systems**
     - in a client-server system, **the user interacts with a program running on their local computer, which interacts with another program running on a remote computer**
     - the remote computer provides services that are **available to external clients**
-
-![Screenshot 2024-11-09 at 10.02.39 PM.png](distributed%20software%20engineering%20139b756f812280cd9927d5a4c7d7310d/Screenshot_2024-11-09_at_10.02.39_PM.png)
 
 | presentation | concerned with presenting information to the user and managing all user interactions |
 | --- | --- |
@@ -145,15 +136,11 @@ implement **checks on the data**, generate web pages, etc |
     - the ‘**master**’ process is usually responsible for **computation, coordination, and communications and controls the ‘slave’ processes**
     - the ‘**slave**’ processes are dedicated to **specific actions, such as acquiring data from an array of sensors**
 
-![Screenshot 2024-11-09 at 10.07.46 PM.png](distributed%20software%20engineering%20139b756f812280cd9927d5a4c7d7310d/Screenshot_2024-11-09_at_10.07.46_PM.png)
-
 ## two-tier client server
 
 - the system is implemented as **a single logical server plus an indefinite number of clients** that use that server
     - **thin-client model**, where the **presentation layer is implemented on the client,** and **all other layers** (data handling, application processing, and database) **are implemented on a server**
     - **fat-client model**, where **some or all of the application processing is carried out on the client**— **data handling and database functions are implemented on the server**
-
-![Screenshot 2024-11-09 at 10.08.55 PM.png](distributed%20software%20engineering%20139b756f812280cd9927d5a4c7d7310d/Screenshot_2024-11-09_at_10.08.55_PM.png)
 
 ## thin and fat clients
 
@@ -178,16 +165,12 @@ implement **checks on the data**, generate web pages, etc |
     - from three-tier to multi-tier
         - **adding an integration server that collects data from multiple databases and presents it to the application server as if it were from a single database**
 
-![Screenshot 2024-11-09 at 10.13.44 PM.png](distributed%20software%20engineering%20139b756f812280cd9927d5a4c7d7310d/Screenshot_2024-11-09_at_10.13.44_PM.png)
-
 ## distributed component architecture
 
 - there is **no distinction in a distributed component architecture between clients and servers**
     - each distributable entity **is a component that provides services to other components and receives services from other components**
     - component communication is through a **middleware system**
 - a distributed component architecture
-
-![Screenshot 2024-11-09 at 10.16.11 PM.png](distributed%20software%20engineering%20139b756f812280cd9927d5a4c7d7310d/Screenshot_2024-11-09_at_10.16.11_PM.png)
 
 | advantages | disadvantages |
 | --- | --- |
