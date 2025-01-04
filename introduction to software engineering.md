@@ -1,8 +1,5 @@
 # introduction to software engineering
 
-Created: August 29, 2024 9:21 AM
-Tags: LEC
-
 # software engineering
 
 - an **engineering discipline** that is concerned with **all aspects of software production**
@@ -59,8 +56,6 @@ dependable software **should not cause physical or economic damage** in the even
 
 ### FAQs about SE
 
-![Screenshot 2024-08-29 at 10.23.00 AM.png](introduction%20to%20software%20engineering%20fac8eeaa63214cf49dae3843d195fbaa/Screenshot_2024-08-29_at_10.23.00_AM.png)
-
 ## scope of software engineering
 
 ### 1. historical aspects
@@ -97,10 +92,7 @@ dependable software **should not cause physical or economic damage** in the even
 ### 4. requirements, analysis, and design aspects
 
 - the earlier we detect and correct a fault, **the less it costs us**
-- the relative cost of fixing a fault at each phase of the classical software life cycle
-    
-    ![Screenshot 2024-08-29 at 10.36.06 AM.png](introduction%20to%20software%20engineering%20fac8eeaa63214cf49dae3843d195fbaa/Screenshot_2024-08-29_at_10.36.06_AM.png)
-    
+- the relative cost of fixing a fault at each phase of the classical software life cycle    
 - the cost of correcting a bug **depends on what has to be done**
 
 - to correct a fault early in the life cycle
@@ -152,29 +144,3 @@ dependable software **should not cause physical or economic damage** in the even
     - **never steal data for personal gain**
     - **never distribute or sell proprietary information** obtained as part of your work
     - never use computing technology to **facilitate discrimination**
-
-## case studies
-
-- a personal insulin pump
-    - an embedded system in an insulin pump used by diabetics to maintain blood glucose control
-    - architecture
-        
-        ![Screenshot 2024-08-29 at 11.23.59 AM.png](introduction%20to%20software%20engineering%20fac8eeaa63214cf49dae3843d195fbaa/Screenshot_2024-08-29_at_11.23.59_AM.png)
-        
-    - activity model
-        
-        ![Screenshot 2024-08-29 at 11.24.03 AM.png](introduction%20to%20software%20engineering%20fac8eeaa63214cf49dae3843d195fbaa/Screenshot_2024-08-29_at_11.24.03_AM.png)
-        
-- a mental health case patient management system
-    - a system used to maintain records of people receiving care for mental health problems
-    - organization
-        
-        ![Screenshot 2024-08-29 at 11.26.43 AM.png](introduction%20to%20software%20engineering%20fac8eeaa63214cf49dae3843d195fbaa/Screenshot_2024-08-29_at_11.26.43_AM.png)
-        
-- a wilderness weather station
-    - a data collection system that collects data about weather conditions in remote areas
-- iLearn: a digital learning environment
-    - a system to support learning in schools
-    - architecture
-        
-        ![Screenshot 2024-08-29 at 11.27.15 AM.png](introduction%20to%20software%20engineering%20fac8eeaa63214cf49dae3843d195fbaa/Screenshot_2024-08-29_at_11.27.15_AM.png)
